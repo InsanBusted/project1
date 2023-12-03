@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>ABOUT US</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./css/style_about.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css"
+    />
+  </head>
+  <body>
+    <!-- nav -->
+    <section class="header" id="header">
+      <nav class="navbar bg-light fixed-top navbar-expand-md shadow">
+        <div class="container navbar-navbar">
+          <a class="navbar-brand fs-3 fw-bold" href="#"
+            >Rumah<span>Design.</span></a
+          >
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav ms-auto">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a
+                    class="nav-link link-nav"
+                    aria-current="page"
+                    href="index.html"
+                    >Home</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link link-nav" href="#">About Us</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link link-nav" href="#contact">Contact Us</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </section>
+
+    <!-- about -->
+
+    <!-- contact -->
+    <section class="d-flex align-items-center contact" id="contact">
+      <div class="container p-5 shadow-lg">
+        <div class="row">
+          <div class="col-12">
+            <h1 class="text-center my-5 fw-bolder">Contact <span>Us</span></h1>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6">
+            <form action="post">
+              <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label"
+                  >Nama</label
+                >
+                <input
+                  type="text"
+                  class="form-control"
+                  id="exampleFormControlInput1"
+                  placeholder="Your Name"
+                  required
+                />
+              </div>
+              <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label"
+                  >Email</label
+                >
+                <input
+                  type="email"
+                  class="form-control"
+                  id="exampleFormControlInput1"
+                  placeholder="name@example.com"
+                  required
+                />
+              </div>
+              <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label"
+                  >Service</label
+                >
+                <select
+                  class="form-select form-select-sm"
+                  aria-label="Small select example"
+                >
+                  <option selected>Pilih Service</option>
+                  <option value="1">Beli</option>
+                  <option value="2">Kembalikan</option>
+                  <option value="3">Complain</option>
+                  <option value="4">Lainnya...</option>
+                </select>
+              </div>
+              <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label"
+                  >Pesan</label
+                >
+                <textarea
+                  class="form-control"
+                  id="exampleFormControlTextarea1"
+                  rows="3"
+                  required
+                ></textarea>
+              </div>
+              <div class="mb-3">
+                <input
+                  class="btn btn-success"
+                  type="submit"
+                  value="Kirim Pesan"
+                />
+                <input class="btn btn-danger" type="reset" value="Hapus" />
+              </div>
+            </form>
+          </div>
+
+          <div class="col-md-6">
+            <div class="container">
+              <div class="map-responsive">
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d126866.57871876685!2d106.72685038394185!3d-6.447857874627146!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69e9f059a98cc7%3A0xd4d21613faba1224!2sRUMAH%20INSAN!5e0!3m2!1sen!2sid!4v1701449267619!5m2!1sen!2sid"
+                  allowfullscreen=""
+                  loading="lazy"
+                  referrerpolicy="no-referrer-when-downgrade"
+                ></iframe>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- font awesome -->
+    <!-- js bootstrapp -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+      integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
